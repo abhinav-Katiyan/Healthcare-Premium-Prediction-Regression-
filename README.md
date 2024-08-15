@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insurance Premium Prediction ML Web App</title>
-</head>
-<body>
 
 <h1>Insurance Premium Prediction ML Web App</h1>
 
@@ -87,8 +79,7 @@ cd insurance-premium-prediction</code></pre>
 <h2>Contribution</h2>
 <p>Feel free to contribute to this project by submitting issues, feature requests, or pull requests.</p>
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
 
 </body>
 </html>

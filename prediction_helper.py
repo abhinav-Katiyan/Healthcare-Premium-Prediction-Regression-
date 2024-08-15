@@ -103,13 +103,10 @@ def handle_scaling(age, df):
 
 
 def predict_premium(input_dict):
-    try:
-        input_df = preprocess_input_data(input_dict)
-        if input_dict['Age'] <= 25:
-            prediction = model_young.predict(input_df)
-        else:
-            prediction = model_rest.predict(input_df)
-        return int(prediction[0])
-    except Exception as e:
-        logging.error(f"Error during prediction: {e}")
-        return None
+    input_df = preprocess_input_data(input_dict)
+    if input_dict['Age'] <= 25:
+        prediction = model_young.predict(input_df)
+    else:
+        prediction = model_rest.predict(input_df)
+    # Assuming prediction is a NumPy array or a Pandas Series
+    return int(prediction[0])
